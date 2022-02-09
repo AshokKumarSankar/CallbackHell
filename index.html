@@ -1,35 +1,33 @@
-timer=document.getElementById("container")
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#container{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid yellowgreen;
+font-size: 2rem;
+height: 10rem;
+width: 20rem;
+text-align: center;
+position: absolute;
+top:40%;
+left:40%
+}
+</style>
+<body>
+   <div  id="container">
+       
+    </div> 
 
-setTimeout(()=>{
-  timer.innerText="10";
-  setTimeout(()=>{
-      timer.innerText="9";
-      setTimeout(()=>{
-          timer.innerText="8";
-          setTimeout(()=>{
-              timer.innerText="7";
-              setTimeout(()=>{
-                  timer.innerText="6";
-                  setTimeout(()=>{
-                      timer.innerText="5";
-                      setTimeout(()=>{
-                          timer.innerText="4";
-                          setTimeout(()=>{
-                              timer.innerText="3";
-                              setTimeout(()=>{
-                                  timer.innerText="2";
-                                  setTimeout(()=>{
-                                      timer.innerText="1";
-                                      setTimeout(()=>{
-                                          timer.innerText="HAPPY NEW YEAR!!!"
-                                      },1000)
-                                  },1000)
-                              },1000)
-                          },1000)
-                      },1000)
-                  },1000)
-              },1000)
-          },1000)
-      },1000)
-  },1000)
-},1000)
+    <script src="script.js"></script>
+
+   
+</body>
+</html>
